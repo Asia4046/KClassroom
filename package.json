@@ -1,0 +1,23 @@
+{
+  "name": "kclassroom-api",
+  "version": "1.0.0",
+  "description": "The API for KClassRoom APP",
+  "main": "index.js",
+  "repository": "https://github.com/KTeam-Devs/KClassroom.git",
+  "author": "KTeam-Devs <kirito234875@gmail.com>",
+  "license": "AGPL-3.0",
+  "scripts": {
+    "test": "nodemon index.js",
+    "start": "node ."
+  },
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "helmet": "^5.1.1",
+    "mongoose": "^6.5.2",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.7.8",
+    "nodemon": "^2.0.19"
+  }
+}
